@@ -2,7 +2,7 @@ import java.util.*;
 public class abc {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		
 
 		
@@ -11,7 +11,7 @@ public class abc {
 		    
 		    Scanner scan = new Scanner(System.in);
 		    
-		    // 코드를 작성하세요.
+		    
 		    int i = 1;
 		    
 		    
