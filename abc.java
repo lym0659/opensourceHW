@@ -12,7 +12,7 @@ public class abc {
 		    Scanner scan = new Scanner(System.in);
 		    
 		    
-		    int i = 0;
+		    int i = 1;
 		    
 		    
 		    while (i < 5) {
