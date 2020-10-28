@@ -3,16 +3,16 @@ public class abc {
 
 	public static void main(String[] args) {
 		
-		
+	
 
 		
-		    String correct_pw = "hyin";
+		    String correct_pw = "hyin"; // ¿¿¿¿ ¿¿
 		    String input_pw;
 		    
 		    Scanner scan = new Scanner(System.in);
 		    
 		    
-		    int i = 1;
+	    int i = 0;
 		    
 		    
 		    while (i < 4) {
