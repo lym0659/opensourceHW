@@ -13,21 +13,21 @@ public class abc {
 		    
 		    
 	    int i = 0;
-		    
+		   
 		    
 		    while (i < 4) {
-		      System.out.println("¾ÏÈ£¸¦ ÀÔ·ÂÇÏ¼¼¿ä.");
+		      System.out.println("¿¿¿¿¿ ¿¿¿¿¿:");
 		      input_pw = scan.nextLine();
 		      if (input_pw.equals(correct_pw)) {
-		        System.out.println("È¯¿µÇÕ´Ï´Ù.");
+		        System.out.println("¿¿¿¿¿ :)");
 		        break;
 		      }
 		      else {
 		        i++;
-		        System.out.println("¾ÏÈ£°¡ Æ²¸³´Ï´Ù.");
+		        System.out.println("¿¿¿ ¿¿¿¿¿¿¿.");
 		      }
 		      while (i == 4) {
-		        System.out.println("Á¢¼ÓÀ» °ÅºÎÇÕ´Ï´Ù.");
+		        System.out.println("¿¿¿ ¿¿¿¿¿.");
 		        break;
 		      }    
 		    }
