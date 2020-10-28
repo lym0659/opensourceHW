@@ -12,10 +12,10 @@ public class abc {
 		    Scanner scan = new Scanner(System.in);
 		    
 		    
-		    int i = 1;
+		    int i = 0;
 		    
 		    
-		    while (i < 4) {
+		    while (i < 5) {
 		      System.out.println("암호를 입력하세요.");
 		      input_pw = scan.nextLine();
 		      if (input_pw.equals(correct_pw)) {
@@ -26,7 +26,7 @@ public class abc {
 		        i++;
 		        System.out.println("암호가 틀립니다.");
 		      }
-		      while (i == 4) {
+		      while (i == 5) {
 		        System.out.println("접속을 거부합니다.");
 		        break;
 		      }    
