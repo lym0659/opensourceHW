@@ -3,31 +3,32 @@ public class abc {
 
 	public static void main(String[] args) {
 		
-		
+	
 
 		
+
 		    String correct_pw = "opensourceSW";
 		    String input_pw;
 		    
 		    Scanner scan = new Scanner(System.in);
 		    
 		    
-		    int i = 1;
+	    int i = 0;
 		    
 		    
-		    while (i < 4) {
-		      System.out.println("¾ÏÈ£¸¦ ÀÔ·ÂÇÏ¼¼¿ä.");
+		    while (i < 5) {
+		      System.out.println("ì•”í˜¸ë¥¼ ìž…ë ¥í•˜ì„¸ìš”.");
 		      input_pw = scan.nextLine();
 		      if (input_pw.equals(correct_pw)) {
-		        System.out.println("È¯¿µÇÕ´Ï´Ù.");
+		        System.out.println("í™˜ì˜í•©ë‹ˆë‹¤.");
 		        break;
 		      }
 		      else {
 		        i++;
-		        System.out.println("¾ÏÈ£°¡ Æ²¸³´Ï´Ù.");
+		        System.out.println("ì•”í˜¸ê°€ í‹€ë¦½ë‹ˆë‹¤.");
 		      }
-		      while (i == 4) {
-		        System.out.println("Á¢¼ÓÀ» °ÅºÎÇÕ´Ï´Ù.");
+		      while (i == 5) {
+		        System.out.println("ì ‘ì†ì„ ê±°ë¶€í•©ë‹ˆë‹¤.");
 		        break;
 		      }    
 		    }
