@@ -6,7 +6,8 @@ public class abc {
 	
 
 		
-		    String correct_pw = "hyin"; // ¿¿¿¿ ¿¿
+
+		    String correct_pw = "opensourceSW";
 		    String input_pw;
 		    
 		    Scanner scan = new Scanner(System.in);
@@ -16,18 +17,18 @@ public class abc {
 		    
 		    
 		    while (i < 5) {
-		      System.out.println("¾ÏÈ£¸¦ ÀÔ·ÂÇÏ¼¼¿ä.");
+		      System.out.println("ì•”í˜¸ë¥¼ ìž…ë ¥í•˜ì„¸ìš”.");
 		      input_pw = scan.nextLine();
 		      if (input_pw.equals(correct_pw)) {
-		        System.out.println("È¯¿µÇÕ´Ï´Ù.");
+		        System.out.println("í™˜ì˜í•©ë‹ˆë‹¤.");
 		        break;
 		      }
 		      else {
 		        i++;
-		        System.out.println("¾ÏÈ£°¡ Æ²¸³´Ï´Ù.");
+		        System.out.println("ì•”í˜¸ê°€ í‹€ë¦½ë‹ˆë‹¤.");
 		      }
 		      while (i == 5) {
-		        System.out.println("Á¢¼ÓÀ» °ÅºÎÇÕ´Ï´Ù.");
+		        System.out.println("ì ‘ì†ì„ ê±°ë¶€í•©ë‹ˆë‹¤.");
 		        break;
 		      }    
 		    }
